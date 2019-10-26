@@ -1,0 +1,139 @@
+@font-face
+{
+  font-family: 'Vanilla_Whale';
+  src: url('Fonts/vanilla_whale.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Edmunds';
+    src: url('Fonts/edmunds.ttf') format('truetype');
+}
+
+.canvasWrapper
+{
+  position: relative;
+  width: 60em;
+  height: 40em;
+  margin: 0 auto;
+}
+.canvasWrapper canvas
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.centerTitle
+{
+  text-align:center;
+  margin: 2em;
+}
+
+.h1badge
+{
+  height: 1em;
+  padding: .01em;
+}
+
+.normal
+{
+  text-decoration: none;
+}
+
+.underlined
+{
+  text-decoration: underline;
+}
+
+#storyId
+{
+  font-size: 1.5em;
+}
+
+a
+{
+  color: #c7c748;
+}
+
+body
+{
+  background-color:#111111;
+  background-image:url(Images/black-felt.png);
+  color:#fcfcfc;
+  text-align: center;
+}
+
+canvas
+{
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+div
+{
+  padding:0.5em;
+}
+
+figure
+{
+  float:left;
+  border: 0.3em solid white;
+  width: 10em;
+  height: 10em;
+  transition: transform 1s;
+}
+
+figure:hover
+{
+  transform: scale(1.1, 1.1);
+}
+
+figure img
+{
+  width: 10em;
+}
+
+footer
+{
+  padding-top: 1em;
+  width: 100%;
+}
+
+h1
+{
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+li
+{
+  text-align: left;
+}
+
+nav
+{
+  display: inline-block;
+}
+
+p
+{
+  width: 50%;
+  margin: 0 auto;
+}
+
+table
+{
+  border: 1px solid #c7c748;
+  display: inline-block;
+}
+
+ul
+{
+  display: inline-block;
+}
+
+
+
+
